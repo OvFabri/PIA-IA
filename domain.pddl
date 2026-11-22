@@ -6,8 +6,7 @@
   )
 
   (:predicates
-    ;; --- Mapa del piso (estaticos) ---
-    (conectado ?a - lugar ?b - lugar)          ; hay pasillo directo de ?a a ?b
+    (conectado ?a - lugar ?b - lugar)        
     (es-farmacia ?l - lugar)
     (es-consultorio ?l - lugar)
     (es-cargador ?l - lugar)
@@ -15,19 +14,19 @@
 
     ;; Robot
     (robot-en ?r - robot ?l - lugar)
-    (bateria ?r - robot ?n - nivel)            ; nivel actual de bateria
-    (siguiente ?menor - nivel ?mayor - nivel)  ; ?menor = ?mayor - 1 (estatico)
-    (nivel-maximo ?n - nivel)                  ; estatico
+    (bateria ?r - robot ?n - nivel)            
+    (siguiente ?menor - nivel ?mayor - nivel) 
+    (nivel-maximo ?n - nivel)                  
 
     ;; Compartimentos del robot
-    (compartimento-de ?c - compartimento ?r - robot)   ; estatico
+    (compartimento-de ?c - compartimento ?r - robot)  
     (libre ?c - compartimento)
     (contaminado ?c - compartimento)
-    (apto ?m - medicamento ?c - compartimento)        ; estatico (cadena de frio)
+    (apto ?m - medicamento ?c - compartimento)        
 
     ;; Medicamentos y recetas
     (en-farmacia ?m - medicamento)
-    (prescrito ?m - medicamento ?p - paciente)        ; estatico
+    (prescrito ?m - medicamento ?p - paciente)       
     (receta-pendiente ?m - medicamento)
     (receta-firmada ?m - medicamento)
     (en-compartimento ?m - medicamento ?c - compartimento)
