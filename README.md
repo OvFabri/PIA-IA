@@ -86,13 +86,7 @@ Son acciones "de mantenimiento": no acercan directamente a la meta, pero sin ell
 | v3 | Probamos baterías de 7 a 10 niveles y variantes del mapa | Entre 35 y 49 pasos; seguía dominado por traslados. |
 | **v4 (final)** | Pasillo central, puerta directa consultorio–farmacia, **base de carga dentro de la farmacia**, batería de 8 niveles | Plan óptimo de **25 pasos** con **1 recarga obligatoria** (sin límite de batería serían 24). |
 
-### 5. El plan resultante y por qué es interesante
-
-El planificador descubrió una estrategia que no programamos explícitamente: **deja al paciente en aislamiento para el final**. Si fuera primero a la hab-103, el compartimento normal quedaría contaminado y tendría que ir a desinfectarlo antes de llevar el analgésico. Al dejarlo al último, desinfecta una sola vez, de regreso a la base. También aprovecha la recarga en farmacia para cargar el antibiótico en la misma parada.
-
-Ver `GUION_VIDEO.md` para la explicación paso a paso.
-
-### 6. En qué se diferencia de los dominios de inspiración
+### 5. En qué se diferencia de los dominios de inspiración
 
 Nos basamos en **Air Cargo** y **Logistics** (cargar, mover, descargar), pero:
 
