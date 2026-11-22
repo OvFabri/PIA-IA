@@ -7,7 +7,6 @@ Dominio y problema PDDL que modelan a un robot autónomo que hace la ronda de me
 | `domain.pddl` | Tipos, 22 predicados y 7 acciones |
 | `problem.pddl` | Ronda matutina: 7 lugares, 3 pacientes, 3 medicamentos, 2 compartimentos, batería de 8 niveles |
 | `plan.txt` | Plan óptimo encontrado (25 pasos) |
-| `GUION_VIDEO.md` | Explicación paso a paso del plan para el video |
 
 ## Cómo ejecutarlo
 

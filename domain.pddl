@@ -6,6 +6,8 @@
   )
 
   (:predicates
+
+    ;;Mapa
     (conectado ?a - lugar ?b - lugar)        
     (es-farmacia ?l - lugar)
     (es-consultorio ?l - lugar)
