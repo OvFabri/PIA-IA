@@ -1,4 +1,4 @@
-# Robot hospitalario de entrega de medicamentos — Proyecto final PDDL
+# Robot hospitalario de entrega de medicamentos — PIA IA
 
 Dominio y problema PDDL que modelan a un robot autónomo que hace la ronda de medicamentos en un piso de hospital: consigue la firma del médico para cada receta, recoge las dosis en farmacia respetando la cadena de frío, las administra al paciente correcto, desinfecta su compartimento si entró a una habitación de aislamiento y administra su batería.
 
